@@ -16,6 +16,8 @@ Requirements:
 
 [+]  NetfilterQueue 0.8.1 and above (pip install netfilterqueue)
 
+[+]  Scapy 2.2 and above (pip install scapy)
+
 Usage:
 
 Create a rule in the FORWARD chain in iptables as follows: iptables -I FORWARD -j NFQUEUE --queue-num [any number]
